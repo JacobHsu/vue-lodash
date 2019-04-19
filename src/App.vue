@@ -7,11 +7,17 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import { getLodash } from '@/libs/lodash'
+import groupBy from 'lodash/groupBy'
 
 export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  created: function () {
+    console.log('getLodash', getLodash('data_mounted'))
+    console.warn('groupBy', groupBy(['one', 'two', 'three'], 'length') ) // => { '3': ['one', 'two'], '5': ['three'] }
   }
 }
 </script>
