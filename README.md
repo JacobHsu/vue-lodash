@@ -1,3 +1,12 @@
+# lodash
+
+[`_.fromPairs(pairs)`](http://lodash.think2011.net/fromPairs)  反向版 `_.toPairs`，這個方法返回一個由鍵值對構成的對象。
+
+```js
+_.fromPairs([['fred', 30], ['barney', 40]]); // => { 'fred': 30, 'barney': 40 }
+```
+[_.map](http://lodash.think2011.net/map) 返回映射後的新數組  
+
 # vue-lodash
 
 [Lodash](https://lodash.com/)  
