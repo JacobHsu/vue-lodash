@@ -7,6 +7,12 @@ _.fromPairs([['fred', 30], ['barney', 40]]); // => { 'fred': 30, 'barney': 40 }
 ```
 [_.map](http://lodash.think2011.net/map) 返回映射後的新數組  
 
+
+## replace
+
+[_.replace](https://lodash.com/docs/4.17.15#replace)  
+`import replace from 'lodash/replace'`  
+
 # vue-lodash
 
 [Lodash](https://lodash.com/)  
