@@ -58,6 +58,8 @@ package.json
 `npm run deploy`  
 https://jacobhsu.github.io/vue-lodash/  
 
+` $ npm install lodash@latest --save`  
+
 ## Project setup
 ```
 npm install
