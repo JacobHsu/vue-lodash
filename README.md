@@ -45,6 +45,19 @@ merge
 
 [JS中的groupBy方法](https://segmentfault.com/a/1190000011201544)
 
+
+## NPM
+
+[![NPM](https://nodei.co/npm/gh-pages.png?downloads=true&stars=true)](https://nodei.co/npm/gh-pages/)    
+
+package.json
+```js
+"scripts": {
+    "deploy": "npm run build && gh-pages -d dist"
+```
+`npm run deploy`  
+https://jacobhsu.github.io/vue-lodash/  
+
 ## Project setup
 ```
 npm install
